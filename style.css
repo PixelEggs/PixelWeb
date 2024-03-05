@@ -15,8 +15,8 @@ p {
 .top {
   text-align: center;
   background-color: #E7E7E7;
-  height: 200px;
-  line-height: 200px;
+  height: 18vw;
+  line-height: 18vw;
   width: 100%
 }
 
@@ -35,10 +35,10 @@ p {
 .box {
   margin: 10px;
   width: 22vw;
-  height: 200px;
+  height: 10vw;
   background-color: #E7E7E7;
   display:inline-block;
-  border-radius: 40px;
+  border-radius: 2vw;
 
   padding: 40px;
   transition-duration: 0.2s;
@@ -51,7 +51,7 @@ p {
   height: 7vw;
   background-color: #E7E7E7;
   display:inline-block;
-  border-radius: 20px;
+  border-radius: 2vw;
 
   transition-duration: 0.2s;
 }
@@ -62,7 +62,7 @@ p {
   height: 22vw;
   background-color: #E7E7E7;
   display:inline-block;
-  border-radius: 40px;
+  border-radius: 2vw;
   padding: 0px;
 
   transition-duration: 0.3s;
@@ -74,7 +74,7 @@ p {
   height: 13vw;
   background-color: #E7E7E7;
   display:inline-block;
-  border-radius: 40px;
+  border-radius: 2vw;
   padding: 0px;
 
   transition-duration: 0.3s;
@@ -87,7 +87,7 @@ p {
   height: 117px;
   background-color: #E7E7E7;
   display:inline-block;
-  border-radius: 40px;
+  border-radius: 2vw;
   vertical-align: text-bottom;
 
   transition-duration: 0.2s;
@@ -100,7 +100,7 @@ p {
 .box5:hover {box-shadow: 0px 0px 20px #9890A9;cursor: pointer;transform: translateY(-5px);}
 
 .section1 {
-  border-radius: 40px;
+  border-radius: 2vw;
   background-color: #E7E7E7;
   margin: auto;
   margin-top: 120px;
@@ -116,7 +116,7 @@ p {
 }
 
 .section3 {
-  border-radius: 40px;
+  border-radius: 2vw;
   background-color: #E7E7E7;
   margin: auto;
   margin-top: 30px;
@@ -127,7 +127,7 @@ p {
 }
 
 .section4 {
-  border-radius: 20px;
+  border-radius: 2vw;
   background-color: #E7E7E7;
   margin: auto;
   margin-top: 120px;
@@ -144,7 +144,7 @@ p {
 }
 
 .section6 {
-  border-radius: 40px;
+  border-radius: 2vw;
   background-color: #E7E7E7;
   width: 45%;
   padding: 40px;
@@ -155,7 +155,7 @@ p {
 }
 
 .section7 {
-  border-radius: 40px;
+  border-radius: 2vw;
   background-color: #E7E7E7;
   margin: auto;
   margin-top: 20px;
@@ -174,7 +174,7 @@ body {
   width: 85%; 
   height: 85%; 
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 1vw;
   bottom: 7.5%;
   left: 7.5%;
   display: block;
