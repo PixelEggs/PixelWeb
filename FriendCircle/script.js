@@ -126,6 +126,16 @@ document.addEventListener("DOMContentLoaded", function () {
       link.textContent = "Agenttamy";
       personInfo.innerText = "Real 🗣🔥🥶😭"
     }
+    if (boxIndex === 5) {
+      link.href = "";
+      link.textContent = "E";
+      personInfo.innerText = "E"
+    }
+    if (boxIndex === 6) {
+      link.href = "";
+      link.textContent = "Dimensional Space";
+      personInfo.innerText = "Great game developer, great friend :)"
+    }
 
     const popupContainer = document.getElementById("popupContainer");
     if (popupContainer) {

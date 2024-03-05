@@ -32,10 +32,6 @@ p {
   font-size: 16px
 }
 
-button {
-  border-style: none;
-}
-
 .box {
   margin: 10px;
   width: 22vw;
@@ -73,7 +69,6 @@ button {
 }
 
 .box4 {
-  flex-direction:column;
   margin: 10px;
   width: 22vw;
   height: 13vw;
@@ -82,9 +77,8 @@ button {
   border-radius: 40px;
   padding: 0px;
 
-  display: inline-flex;
-  align-items: center;
   transition-duration: 0.3s;
+  vertical-align: text-bottom;
 }
 
 .box5 {
@@ -94,7 +88,7 @@ button {
   background-color: #E7E7E7;
   display:inline-block;
   border-radius: 40px;
-  vertical-align: bottom;
+  vertical-align: text-bottom;
 
   transition-duration: 0.2s;
 }
@@ -122,10 +116,13 @@ button {
 }
 
 .section3 {
+  border-radius: 40px;
+  background-color: #E7E7E7;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 4vw;
-  width: 75vw;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 60%;
+  padding: 15px;
   text-align:center;
 }
 
@@ -139,13 +136,10 @@ button {
 }
 
 .section5 {
-  border-radius: 40px;
-  background-color: #E7E7E7;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  width: 60%;
-  padding: 15px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  width: 75vw;
   text-align:center;
 }
 
@@ -161,31 +155,24 @@ button {
 }
 
 .section7 {
+  border-radius: 40px;
+  background-color: #E7E7E7;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  width: 75vw;
-  text-align:center;
+  width: 65%;
+  padding: 40px;
 }
+
 
 body {
   margin: 0px;
   background-color: #C9C9D6;
 }
 
-.game {
+.image {
   width: 85%; 
   height: 85%; 
-  object-fit: cover;
-  border-radius: 20px;
-  display: block;
-  position: absolute;
-  bottom: 7.5%;
-  left: 7.5%;
-}
-.game2 {
-  width: 85%; 
-  height: 50%; 
   object-fit: cover;
   border-radius: 20px;
   bottom: 7.5%;
