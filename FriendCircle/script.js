@@ -136,6 +136,12 @@ document.addEventListener("DOMContentLoaded", function () {
       link.textContent = "Dimensional Space";
       personInfo.innerText = "Great game developer, great friend :)"
     }
+    if (boxIndex === 7) {
+      link.href = "";
+      link.textContent = "PhiDra";
+      personInfo.innerText = "The dragon of all time. 🐲🐉"
+    }
+
 
     const popupContainer = document.getElementById("popupContainer");
     if (popupContainer) {
