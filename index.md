@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about PixelEggs and how to contact him.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PixelEggs - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;900&display=swap" rel="stylesheet">
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VMB2WMDTB3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VMB2WMDTB3');
+  </script>
+  <body>
+    <main>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="top">
+        <h1 class="bouncing-text noselect">
+          <span>H</span>
+          <span>e</span>
+          <span>l</span>
+          <span>l</span>
+          <span>o</span>
+          <span>,</span>
+          <span>&nbsp;</span>
+          <span>I</span>
+          <span>'</span>
+          <span>m</span>
+          <span>&nbsp;</span>
+          <span>P</span>
+          <span>i</span>
+          <span>x</span>
+          <span>e</span>
+          <span>l</span>
+          <span>e</span>
+          <span>g</span>
+          <span>g</span>
+          <span>s</span>
+          <span>!</span>
+        </h1>
+      </div>
+
+
+      <div class="section1">
+        <p>I'm an American game developer crafting free-to-play games and demos over on itch.io. Beyond just coding and development, I also take on the roles of creating music, art, and sound effects for the majority of my indie projects. When I'm not developing games, you'll often find me indulging in drawing, gaming, and occasionally baking. My passions extend to computer science, engineering, and electronics, and I often experiment with new things such as web development and robotics. You can usually catch me hanging out on Discord, though I might be a slow with a response.</p>
+      </div>
+
+      <div class="section2">
+        <div class="box1">
+          <h2>Region/Timezone</h2><figcaption>Arizona, GMT-7</figcaption><img src="AZFlag.png" alt="Flag of Arizona" width = 40% style="margin-top:20px; border-radius:10px;">
+        </div>
+        <div class="box1">
+          <h2>Pronouns</h2><figcaption>He/Him</figcaption>
+        </div>
+
+      </div>
+
+
+      <div class="section1">
+        <h2>Friend Circle 👥</h2>
+      </div>
+
+      <div class="section1" style="width:60vw;margin-top:30px;">
+        <img src="ChickenFriends.gif" alt="Two chickens standing together." style="position:absolute; right:1vw; width:14vw;">
+        <iframe style="border: 0; width:100%; height: 650px; overflow: auto;" src="FriendCircle/index.html"></iframe>
+      </div>
+
+      <div class="section1">
+        <h2>Favourite Things ⭐</h2>
+      </div>
+      <div class="section1" style="width:70vw;margin-top:30px;margin-bottom:120px;text-align:center;">
+        <div class="box2"><img src="Wilds.jpeg" alt="Outer Wilds logo." class="image"><h2>Video Game</h2><figcaption>Outer Wilds</figcaption></div>
+        <div class="box2"><img src="Neal.jpeg" alt="Neal.fun games" class="image"><h2>Website</h2><figcaption>Neal.fun</figcaption></div>
+        <div class="box2"><img src="Alfredo.jpg" alt="A plate of Fettuccine Alfredo." class="image"><h2>Food</h2><figcaption>Fettuccine Alfredo</figcaption></div>
+        <div class="box2"><img src="Cyan.png" alt="Shades of cyan." class="image"><h2>Color</h2><figcaption>Cyan</figcaption></div>
+        <div class="box2"><img src="BlackHole.jpg" alt="Kurzgesagt black hole." class="image"><h2>Youtube Channel</h2><figcaption>Kurzgesagt - In a Nutshell</figcaption></div>
+        <div class="box2"><img src="Chicken1.jpg" alt="A chicken looking at the camera." class="image"><h2>Animal</h2><figcaption>Chicken</figcaption></div>
+      </div>
+
+      <div class="section2" style="margin-bottom:30px;">
+        <img src="MusicChicken.gif" alt="A chicken wearing headphones with musical notes floating beside it." style="position:absolute; left:1vw; width:14vw;">
+        <div class="section3">
+          <h2>Music Taste 🎶</h2>
+        </div>
+        <a target="_blank" href="https://open.spotify.com/user/31lbi6rgqruwewzch77ppjh7ix7i?si=9a4a7b7a394c426d"><div class="box3"> <img class="logo" src="Spotify.png" alt="Spotify logo." width="50%"> </div></a>
+      </div>
+      <div class="section2">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6GJiS3TMXlygF2dN6A3IGM?utm_source=generator" width="60%" height="700px" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+
+      
+      <div class="bottom-footer"></div>
+
+    </main>
+  </body>
+</html>
